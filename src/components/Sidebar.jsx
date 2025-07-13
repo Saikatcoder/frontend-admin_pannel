@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { assets } from "../../../Frontend/src/assets/admin_assets/assets.js";
+import { assets } from "../assets/admin_assets/assets.js";
 
 const Sidebar = () => {
   const navItems = [

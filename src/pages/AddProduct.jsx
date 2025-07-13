@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { assets } from "../../../Frontend/src/assets/admin_assets/assets.js";
+
 import axios from "axios";
 import { backendUrl } from "../App";
 import { toast } from "react-toastify";
-
+import { assets } from "../assets/admin_assets/assets.js";
 const AddProduct = ({token}) => {
   // Image states
   const [image1, setImage1] = useState(null);
