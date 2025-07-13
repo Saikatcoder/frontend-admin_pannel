@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets } from '../../../Frontend/src/assets/frontend_assets/assets'
+import { assets } from '../assets/admin_assets/assets.js'
 
 const Navbar = ({setToken}) => {
   return (
